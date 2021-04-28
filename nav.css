@@ -1,0 +1,62 @@
+{
+          background: #29cc67  url(fon.jpg); /* Цвет фона и путь к файлу */
+	      background-size: 100%;
+		  background-size: cover; 
+          background-attachment: fixed; /* Фон страницы фиксируется */	  
+         }
+		* {
+			padding: 0;
+			margin: 0;
+		}
+
+		.nav {
+			background-color: #0a520f;
+			display: flex;
+			justify-content: center;
+			list-style-type: none;
+		}
+
+		.nav a {
+			color: white;
+			display: block;
+			font: bold 17px Arial, Helvetica, sans-serif;
+			//overflow: hidden;
+			padding: 20px 5vw;
+			text-decoration: none;
+		}
+
+		.nav a:hover {
+			background-color: ##29cc47;;
+			color: black;
+		}
+		.nav li a.active {
+      background-color: #29cc37;;
+      color: black;
+      }
+	  .wrapper {
+	  margin: 20px 20%;
+	  padding: 0 20px;
+     }
+	 .card {
+   	  background-color: #550d0d80;
+	  border-radius: 100px;
+	  padding: 40px;
+	  text-align: center;
+	  color: #fff;
+	  font-size: 20px;
+     }
+    
+     .card h2, .card p {
+ 	 margin: 20px 0;
+     }
+     .start-button {
+	 background-color: #944a4a80;
+	 border: none;
+	 border-radius: 4px;
+	 color: #F3F3F3;
+	 cursor: pointer;
+	 font-size: 0.8em;
+	 padding: 10px 25px;
+	 transition: 0.2s;
+     }
+	 

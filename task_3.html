@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="nav.css">
+      <title>Задание 3</title>
+</head>
+<body>
+      <ul class="nav">
+            <li><a class="tablink " href="index.html">Задание&nbsp1</a></li>
+            <li><a class="tablink " href="task_2.html">Задание&nbsp2</a></li>
+            <li><a class="tablink active" href="task_3.html">Задание&nbsp3</a></li>
+            <li><a class="tablink" href="task_4.html">Задание&nbsp4</a></li>
+            <li><a class="tablink" href="task_5.html">Задание&nbsp5</a></li>
+            <li><a class="tablink" href="task_6.html">Задание&nbsp6</a></li>
+      </ul>
+      <div>
+            <h1>Задание 3</h1>
+            <div>
+                  <img id="img" src="image.png" style="display: none;">
+            </div>
+            <canvas id="canvas" width="600" height="600" style="border: solid black 1px"></canvas><br>
+            <input type="button" onclick="draw_func()" value="График функции">
+            <input type="button" onclick="triangle()" value="Увел.треугольники">
+            <input type="button" onclick="draw_bezie()" value="Кривая безье">
+            <input type="button" onclick="image()" value="Трансофрмация">
+            <input type="button" value="+" id="+" onclick="">
+            <input type="button" value="-" id="-"><br><br>
+            <a href="task_4.html">Четвертое задание</a>
+      </div>
+      <script src="task_3.js"></script>
+</body>
+</html>
